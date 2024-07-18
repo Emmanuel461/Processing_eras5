@@ -9,11 +9,12 @@ c.retrieve(
         'format': 'zip',
         'variable': '2m_temperature',
         'statistic': 'day_time_mean',
-        'year': ['2023', '2024'],
+        'year': ['2022','2023', '2024'],
         'month': [
             '01', '02', '03',
             '04', '05', '06',
-            '07',
+            '07','08', '09', 
+            '10', '11', '12',
         ],
         'day': [
             '01', '02', '03',
@@ -30,6 +31,8 @@ c.retrieve(
         ],
         'area': [
             12.9, -16.8, 10,
-            14,
+            -13.5,
         ],
-    }, 'download.zip')
+    }, 'DataIntermediate/2m_temperature.zip')
+
+    

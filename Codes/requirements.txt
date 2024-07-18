@@ -1,1 +1,7 @@
 cdsapi
+rasterio
+geopandas
+pandas
+netCDF4 
+xarray 
+openpyxl
